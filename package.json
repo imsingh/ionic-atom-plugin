@@ -2,7 +2,7 @@
   "name": "ionic-framework-snippets",
   "main": "./lib/ionic-framework-snippets",
   "version": "1.1.0",
-  "description": "A Snippet Package for Ionic Frameowkr",
+  "description": "A Snippet Package for Ionic Frameowork with Tons of Useful Snippets.",
   "activationEvents": [
     "ionic-snippets-plugin:toggle"
   ],

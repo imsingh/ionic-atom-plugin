@@ -1,0 +1,571 @@
+".text.html":
+
+    'Button':
+      'prefix':'ionic-css-button'
+      'body' : """
+      <button class="button">
+         ${1: Default}
+      </button>
+      """
+
+    'Button Light':
+      'prefix':'ionic-css-button:light'
+      'body' : """
+      <button class="button button-light">
+         ${1: Button Light}
+      </button>
+      """
+
+    'Button Stable':
+      'prefix':'ionic-css-button:stable'
+      'body' : """
+      <button class="button button-stable">
+         ${1: Button Stable}
+      </button>
+      """
+
+    'Button Positive':
+      'prefix':'ionic-css-button:positive'
+      'body' : """
+      <button class="button button-positive">
+         ${1: Button Positive}
+      </button>
+      """
+
+    'Button Calm':
+      'prefix':'ionic-css-button:calm'
+      'body' : """
+      <button class="button button-calm">
+         ${1: Button Calm}
+      </button>
+      """
+
+    'Button Balanced':
+      'prefix':'ionic-css-button:balanced'
+      'body' : """
+      <button class="button button-balanced">
+         ${1: Button Balanced}
+      </button>
+      """
+
+    'Button Energized':
+      'prefix':'ionic-css-button:energized'
+      'body' : """
+      <button class="button button-energized">
+         ${1: Button Energized}
+      </button>
+      """
+
+    'Button Assertive':
+      'prefix':'ionic-css-button:assertive'
+      'body' : """
+      <button class="button button-assertive">
+         ${1: Button Assertive}
+      </button>
+      """
+
+    'Button Royal':
+      'prefix':'ionic-css-button:royal'
+      'body' : """
+      <button class="button button-royal">
+         ${1: Button Royal}
+      </button>
+      """
+
+    'Button Dark':
+      'prefix':'ionic-css-button:dark'
+      'body' : """
+      <button class="button button-dark">
+         ${1: Button Dark}
+      </button>
+      """
+
+    # Block Level Buttons Snippets
+
+    'Button Block':
+      'prefix':'ionic-css-button-block'
+      'body' : """
+      <button class="button button-block">
+         ${1: Block Button}
+      </button>
+      """
+
+    'Button Block Light':
+      'prefix':'ionic-css-button-block:light'
+      'body' : """
+      <button class="button button-block button-light">
+         ${1: Button Block Light}
+      </button>
+      """
+
+    'Button Block Stable':
+      'prefix':'ionic-css-button-block:stable'
+      'body' : """
+      <button class="button button-block button-stable">
+         ${1: Button Block Stable}
+      </button>
+      """
+
+    'Button Block Positive':
+      'prefix':'ionic-css-button-block:positive'
+      'body' : """
+      <button class="button button-block button-positive">
+         ${1: Button Block Positive}
+      </button>
+      """
+
+    'Button Block Calm':
+      'prefix':'ionic-css-button-block:calm'
+      'body' : """
+      <button class="button button-block button-calm">
+         ${1: Button Block Calm}
+      </button>
+      """
+
+    'Button Block Balanced':
+      'prefix':'ionic-css-button-block:balanced'
+      'body' : """
+      <button class="button button-block button-balanced">
+         ${1: Button Block Balanced}
+      </button>
+      """
+
+    'Button Block Energized':
+      'prefix':'ionic-css-button-block:energized'
+      'body' : """
+      <button class="button button-block button-energized">
+         ${1: Button Block Energized}
+      </button>
+      """
+
+    'Button Block Assertive':
+      'prefix':'ionic-css-button-block:assertive'
+      'body' : """
+      <button class="button button-block button-assertive">
+         ${1: Button Block Assertive}
+      </button>
+      """
+
+    'Button Block Royal':
+      'prefix':'ionic-css-button-block:royal'
+      'body' : """
+      <button class="button button-block button-royal">
+         ${1: Button Block Royal}
+      </button>
+      """
+
+    'Button Block Dark':
+      'prefix':'ionic-css-button-block:dark'
+      'body' : """
+      <button class="button button-block button-dark">
+         ${1: Button Block Dark}
+      </button>
+      """
+
+    # Clear Button Snippets
+
+    'Button Clear':
+      'prefix':'ionic-css-button-clear'
+      'body' : """
+      <button class="button button-clear">
+         ${1: Clear Button}
+      </button>
+      """
+
+    'Button Clear Light':
+      'prefix':'ionic-css-button-clear:light'
+      'body' : """
+      <button class="button button-clear button-light">
+         ${1: Button Clear Light}
+      </button>
+      """
+
+    'Button Clear Stable':
+      'prefix':'ionic-css-button-clear:stable'
+      'body' : """
+      <button class="button button-clear button-stable">
+         ${1: Button Clear Stable}
+      </button>
+      """
+
+    'Button Clear Positive':
+      'prefix':'ionic-css-button-clear:positive'
+      'body' : """
+      <button class="button button-clear button-positive">
+         ${1: Button Clear Positive}
+      </button>
+      """
+
+    'Button Clear Calm':
+      'prefix':'ionic-css-button-clear:calm'
+      'body' : """
+      <button class="button button-clear button-calm">
+         ${1: Button Clear Calm}
+      </button>
+      """
+
+    'Button Clear Balanced':
+      'prefix':'ionic-css-button-clear:balanced'
+      'body' : """
+      <button class="button button-clear button-balanced">
+         ${1: Button Clear Balanced}
+      </button>
+      """
+
+    'Button Clear Energized':
+      'prefix':'ionic-css-button-clear:energized'
+      'body' : """
+      <button class="button button-clear button-energized">
+         ${1: Button Clear Energized}
+      </button>
+      """
+
+    'Button Clear Assertive':
+      'prefix':'ionic-css-button-clear:assertive'
+      'body' : """
+      <button class="button button-clear button-assertive">
+         ${1: Button Clear Assertive}
+      </button>
+      """
+
+    'Button Clear Royal':
+      'prefix':'ionic-css-button-clear:royal'
+      'body' : """
+      <button class="button button-clear button-royal">
+         ${1: Button Clear Royal}
+      </button>
+      """
+
+    'Button Clear Dark':
+      'prefix':'ionic-css-button-clear:dark'
+      'body' : """
+      <button class="button button-clear button-dark">
+         ${1: Button Clear Dark}
+      </button>
+      """
+
+    # Full Width Button Snippets
+
+      'prefix':'ionic-css-button-full'
+      'body' : """
+      <button class="button button-full">
+         ${1: Full Button}
+      </button>
+      """
+
+    'Button Full Light':
+      'prefix':'ionic-css-button-full:light'
+      'body' : """
+      <button class="button button-full button-light">
+         ${1: Button Full Light}
+      </button>
+      """
+
+    'Button Full Stable':
+      'prefix':'ionic-css-button-full:stable'
+      'body' : """
+      <button class="button button-full button-stable">
+         ${1: Button Full Stable}
+      </button>
+      """
+
+    'Button Full Positive':
+      'prefix':'ionic-css-button-full:positive'
+      'body' : """
+      <button class="button button-full button-positive">
+         ${1: Button Full Positive}
+      </button>
+      """
+
+    'Button Full Calm':
+      'prefix':'ionic-css-button-full:calm'
+      'body' : """
+      <button class="button button-full button-calm">
+         ${1: Button Full Calm}
+      </button>
+      """
+
+    'Button Full Balanced':
+      'prefix':'ionic-css-button-full:balanced'
+      'body' : """
+      <button class="button button-full button-balanced">
+         ${1: Button Full Balanced}
+      </button>
+      """
+
+    'Button Full Energized':
+      'prefix':'ionic-css-button-full:energized'
+      'body' : """
+      <button class="button button-full button-energized">
+         ${1: Button Full Energized}
+      </button>
+      """
+
+    'Button Full Assertive':
+      'prefix':'ionic-css-button-full:assertive'
+      'body' : """
+      <button class="button button-full button-assertive">
+         ${1: Button Full Assertive}
+      </button>
+      """
+
+    'Button Full Royal':
+      'prefix':'ionic-css-button-full:royal'
+      'body' : """
+      <button class="button button-full button-royal">
+         ${1: Button Full Royal}
+      </button>
+      """
+
+    'Button Full Dark':
+      'prefix':'ionic-css-button-full:dark'
+      'body' : """
+      <button class="button button-full button-dark">
+         ${1: Button Full Dark}
+      </button>
+      """
+
+    # Large Width Button Snippets
+
+      'Button Large':
+        'prefix':'ionic-css-button-large'
+        'body' : """
+        <button class="button button-large">
+           ${1: Large Button}
+        </button>
+        """
+
+      'Button Large Light':
+        'prefix':'ionic-css-button-large:light'
+        'body' : """
+        <button class="button button-large button-light">
+           ${1: Button Large Light}
+        </button>
+        """
+
+      'Button Large Stable':
+        'prefix':'ionic-css-button-large:stable'
+        'body' : """
+        <button class="button button-large button-stable">
+           ${1: Button Large Stable}
+        </button>
+        """
+
+      'Button Large Positive':
+        'prefix':'ionic-css-button-large:positive'
+        'body' : """
+        <button class="button button-large button-positive">
+           ${1: Button Large Positive}
+        </button>
+        """
+
+      'Button Large Calm':
+        'prefix':'ionic-css-button-large:calm'
+        'body' : """
+        <button class="button button-large button-calm">
+           ${1: Button Large Calm}
+        </button>
+        """
+
+      'Button Large Balanced':
+        'prefix':'ionic-css-button-large:balanced'
+        'body' : """
+        <button class="button button-large button-balanced">
+           ${1: Button Large Balanced}
+        </button>
+        """
+
+      'Button Large Energized':
+        'prefix':'ionic-css-button-large:energized'
+        'body' : """
+        <button class="button button-large button-energized">
+           ${1: Button Large Energized}
+        </button>
+        """
+
+      'Button Large Assertive':
+        'prefix':'ionic-css-button-large:assertive'
+        'body' : """
+        <button class="button button-large button-assertive">
+           ${1: Button Large Assertive}
+        </button>
+        """
+
+      'Button Large Royal':
+        'prefix':'ionic-css-button-large:royal'
+        'body' : """
+        <button class="button button-large button-royal">
+           ${1: Button Large Royal}
+        </button>
+        """
+
+      'Button Large Dark':
+        'prefix':'ionic-css-button-large:dark'
+        'body' : """
+        <button class="button button-large button-dark">
+           ${1: Button Large Dark}
+        </button>
+        """
+
+      # Small Width Button Snippets
+
+      'Button Small':
+        'prefix':'ionic-css-button-small'
+        'body' : """
+        <button class="button button-small">
+           ${1: Small Button}
+        </button>
+        """
+
+      'Button Small Light':
+        'prefix':'ionic-css-button-small:light'
+        'body' : """
+        <button class="button button-small button-light">
+           ${1: Button Small Light}
+        </button>
+        """
+
+      'Button Small Stable':
+        'prefix':'ionic-css-button-small:stable'
+        'body' : """
+        <button class="button button-small button-stable">
+           ${1: Button Small Stable}
+        </button>
+        """
+
+      'Button Small Positive':
+        'prefix':'ionic-css-button-small:positive'
+        'body' : """
+        <button class="button button-small button-positive">
+           ${1: Button Small Positive}
+        </button>
+        """
+
+      'Button Small Calm':
+        'prefix':'ionic-css-button-small:calm'
+        'body' : """
+        <button class="button button-small button-calm">
+           ${1: Button Small Calm}
+        </button>
+        """
+
+      'Button Small Balanced':
+        'prefix':'ionic-css-button-small:balanced'
+        'body' : """
+        <button class="button button-small button-balanced">
+           ${1: Button Small Balanced}
+        </button>
+        """
+
+      'Button Small Energized':
+        'prefix':'ionic-css-button-small:energized'
+        'body' : """
+        <button class="button button-small button-energized">
+           ${1: Button Small Energized}
+        </button>
+        """
+
+      'Button Small Assertive':
+        'prefix':'ionic-css-button-small:assertive'
+        'body' : """
+        <button class="button button-small button-assertive">
+           ${1: Button Small Assertive}
+        </button>
+        """
+
+      'Button Small Royal':
+        'prefix':'ionic-css-button-small:royal'
+        'body' : """
+        <button class="button button-small button-royal">
+           ${1: Button Small Royal}
+        </button>
+        """
+
+      'Button Small Dark':
+        'prefix':'ionic-css-button-small:dark'
+        'body' : """
+        <button class="button button-small button-dark">
+           ${1: Button Small Dark}
+        </button>
+        """
+
+      # Outlined Button Snippets
+
+      'prefix':'ionic-css-button-outline'
+      'body' : """
+      <button class="button button-outline">
+         ${1: Outline Button}
+      </button>
+      """
+
+    'Button Outline Light':
+      'prefix':'ionic-css-button-outline:light'
+      'body' : """
+      <button class="button button-outline button-light">
+         ${1: Button Outline Light}
+      </button>
+      """
+
+    'Button Outline Stable':
+      'prefix':'ionic-css-button-outline:stable'
+      'body' : """
+      <button class="button button-outline button-stable">
+         ${1: Button Outline Stable}
+      </button>
+      """
+
+    'Button Outline Positive':
+      'prefix':'ionic-css-button-outline:positive'
+      'body' : """
+      <button class="button button-outline button-positive">
+         ${1: Button Outline Positive}
+      </button>
+      """
+
+    'Button Outline Calm':
+      'prefix':'ionic-css-button-outline:calm'
+      'body' : """
+      <button class="button button-outline button-calm">
+         ${1: Button Outline Calm}
+      </button>
+      """
+
+    'Button Outline Balanced':
+      'prefix':'ionic-css-button-outline:balanced'
+      'body' : """
+      <button class="button button-outline button-balanced">
+         ${1: Button Outline Balanced}
+      </button>
+      """
+
+    'Button Outline Energized':
+      'prefix':'ionic-css-button-outline:energized'
+      'body' : """
+      <button class="button button-outline button-energized">
+         ${1: Button Outline Energized}
+      </button>
+      """
+
+    'Button Outline Assertive':
+      'prefix':'ionic-css-button-outline:assertive'
+      'body' : """
+      <button class="button button-outline button-assertive">
+         ${1: Button Outline Assertive}
+      </button>
+      """
+
+    'Button Outline Royal':
+      'prefix':'ionic-css-button-outline:royal'
+      'body' : """
+      <button class="button button-outline button-royal">
+         ${1: Button Outline Royal}
+      </button>
+      """
+
+    'Button Outline Dark':
+      'prefix':'ionic-css-button-outline:dark'
+      'body' : """
+      <button class="button button-outline button-dark">
+         ${1: Button Outline Dark}
+      </button>
+      """

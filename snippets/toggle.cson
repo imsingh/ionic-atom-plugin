@@ -1,0 +1,111 @@
+".text.html":
+
+    'Toggle Default Theme':
+      'prefix':'ionic-css-toggle'
+      'body' : """
+      <label class="toggle">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Light Theme':
+      'prefix':'ionic-css-toggle:light'
+      'body' : """
+      <label class="toggle toggle-light">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Stable Theme':
+      'prefix':'ionic-css-toggle:stable'
+      'body' : """
+      <label class="toggle toggle-stable">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Positive Theme':
+      'prefix':'ionic-css-toggle:positive'
+      'body' : """
+      <label class="toggle toggle-positive">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Calm Theme':
+      'prefix':'ionic-css-toggle:calm'
+      'body' : """
+      <label class="toggle toggle-calm">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Balanced Theme':
+      'prefix':'ionic-css-toggle:balanced'
+      'body' : """
+      <label class="toggle toggle-balanced">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Energized Theme':
+      'prefix':'ionic-css-toggle:energized'
+      'body' : """
+      <label class="toggle toggle-energized">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Assertive Theme':
+      'prefix':'ionic-css-toggle:assertive'
+      'body' : """
+      <label class="toggle toggle-assertive">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Royal Theme':
+      'prefix':'ionic-css-toggle:royal'
+      'body' : """
+      <label class="toggle toggle-royal">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """
+
+    'Toggle Dark Theme':
+      'prefix':'ionic-css-toggle:dark'
+      'body' : """
+      <label class="toggle toggle-dark">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+      </label>
+      """

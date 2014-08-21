@@ -1,0 +1,72 @@
+".text.html":
+
+    'List':
+      'prefix':'ionic-list'
+      'body' : """
+      <ion-list>
+        <ion-item ng-repeat="${1:item} in ${2:items}">
+
+        </ion-item>
+      </ion-list>
+      """
+
+    'List Item':
+      'prefix':'ionic-item'
+      'body' : """
+      <ion-item>${1:Item!}</ion-item>
+      """
+
+    'List with Delete Button':
+      'prefix':'ionic-delete-button'
+      'body' : """
+      <ion-list show-delete="${1:shouldShowDelete}">
+        <ion-item>
+          <ion-delete-button class="ion-minus-circled"></ion-delete-button>
+          ${2:Hello, list item!}
+        </ion-item>
+      </ion-list>
+      <ion-toggle ng-model="${1:shouldShowDelete}">
+        ${3:Show Delete?}
+      </ion-toggle>
+      """
+
+    'List with Option Button':
+      'prefix':'ionic-option-button'
+      'body' : """
+      <ion-list>
+        <ion-item>
+          ${1:I love kittens!}
+          <ion-option-button class="button-positive">${2:Share}</ion-option-button>
+          <ion-option-button class="button-assertive">${3:Edit}</ion-option-button>
+        </ion-item>
+      </ion-list>
+      """
+
+    'List with Reorder Button':
+      'prefix':'ionic-reorder-button'
+      'body' : """
+      <ion-list ng-controller="${1:My}Ctrl">
+        <ion-item ng-repeat="${2:item} in ${3:items}">
+          ${4:Item}
+          <ion-reorder-button class="ion-navicon"
+                    on-reorder="moveItem(item, $fromIndex, $toIndex)">
+          </ion-reorder>
+        </ion-item>
+      </ion-list>
+      """
+
+    'List with Collection Repeat':
+      'prefix':'ionic-collection-repeat'
+      'body' : """
+      <ion-content ng-controller="${1:Content}Ctrl">
+        <div class="list">
+          <div class="item my-item"
+            collection-repeat="${2:item} in ${3:items}"
+            collection-item-width="'${4:100%}'"
+            collection-item-height="getItemHeight(${2:item}, $index)"
+            ng-style="{height: getItemHeight(${2:item} , $index)}">
+            {{${2:item} }}
+          </div>
+        </div>
+      </ion-content>
+      """

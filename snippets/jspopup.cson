@@ -1,0 +1,47 @@
+".source.js":
+
+    'Popup Alert':
+      'prefix':'ionic-js-popup:alert'
+      'body' : """
+      $scope.showAlert = function() {
+         var alertPopup = $ionicPopup.alert({
+           title: '${1:Popup Title}',
+           template: '${2:Its Content}'
+         });
+         alertPopup.then(function(res) {
+           console.log('${3:Thank you for not eating my delicious ice cream cone}');
+         });
+       };
+      });
+      """
+
+    'Popup Confirm':
+      'prefix':'ionic-js-popup:confirm'
+      'body' : """
+      $scope.showConfirm = function() {
+         var confirmPopup = $ionicPopup.confirm({
+           title: '${1:Title}',
+           template: '${2: Its Content}'
+         });
+         confirmPopup.then(function(res) {
+           if(res) {
+             console.log('You are sure');
+           } else {
+             console.log('You are not sure');
+           }
+         });
+       };
+      """
+
+    'Popup Prompt':
+      'prefix':'ionic-js-popup:prompt'
+      'body' : """
+       $ionicPopup.prompt({
+         title: '${1:Title}',
+         template: '${2: Template}',
+         inputType: '${3:password}',
+         inputPlaceholder: '${4:Placehoder Text}'
+       }).then(function(res) {
+         console.log('Your password is', res);
+       });
+      """

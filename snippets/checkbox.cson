@@ -1,0 +1,131 @@
+".text.html":
+
+    'Checkbox':
+      'prefix':'ionic-css-checkbox'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Light':
+      'prefix':'ionic-css-checkbox:light'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-light">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Stable':
+      'prefix':'ionic-css-checkbox:stable'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-stable">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Positive':
+      'prefix':'ionic-css-checkbox:positive'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-positive">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Calm':
+      'prefix':'ionic-css-checkbox:calm'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-calm">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Balanced':
+      'prefix':'ionic-css-checkbox:balanced'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-balanced">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Energized':
+      'prefix':'ionic-css-checkbox:energized'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-energized">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Assertive':
+      'prefix':'ionic-css-checkbox:assertive'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-assertive">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Royal':
+      'prefix':'ionic-css-checkbox:royal'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-royal">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """
+
+    'Checkbox Dark':
+      'prefix':'ionic-css-checkbox:dark'
+      'body' : """
+      <ul class="list">
+        <li class="item item-checkbox">
+           <label class="checkbox checkbox-dark">
+             <input type="checkbox">
+           </label>
+           ${1: Checkbox Crazy}
+        </li>
+      </ul>
+      """

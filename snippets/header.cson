@@ -1,0 +1,81 @@
+".text.html":
+
+    'Header':
+      'prefix':'ionic-css-header'
+      'body' : """
+      <div class="bar bar-header">
+    	   <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Light':
+      'prefix':'ionic-css-header:light'
+      'body' : """
+      <div class="bar bar-header bar-light">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Stable':
+      'prefix':'ionic-css-header:stable'
+      'body' : """
+      <div class="bar bar-header bar-stable">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Positive':
+      'prefix':'ionic-css-header:positive'
+      'body' : """
+      <div class="bar bar-header bar-positive">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Calm':
+      'prefix':'ionic-css-header:calm'
+      'body' : """
+      <div class="bar bar-header bar-calm">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Balanced':
+      'prefix':'ionic-css-header:balanced'
+      'body' : """
+      <div class="bar bar-header bar-balanced">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Energized':
+      'prefix':'ionic-css-header:energized'
+      'body' : """
+      <div class="bar bar-header bar-energized">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Assertive':
+      'prefix':'ionic-css-header:assertive'
+      'body' : """
+      <div class="bar bar-header bar-assertive">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Royal':
+      'prefix':'ionic-css-header:royal'
+      'body' : """
+      <div class="bar bar-header bar-royal">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """
+
+    'Header Dark':
+      'prefix':'ionic-css-header:dark'
+      'body' : """
+      <div class="bar bar-header bar-dark">
+         <h1 class="title">${1: Header}</h1>
+      </div>
+      """

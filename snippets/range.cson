@@ -1,0 +1,101 @@
+".text.html":
+
+    'Range':
+      'prefix':'ionic-css-range'
+      'body' : """
+      <div class="range">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Light Theme':
+      'prefix':'ionic-css-range:light'
+      'body' : """
+      <div class="range range-light">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Stable Theme':
+      'prefix':'ionic-css-range:stable'
+      'body' : """
+      <div class="range range-stable">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Positive Theme':
+      'prefix':'ionic-css-range:positive'
+      'body' : """
+      <div class="range range-positive">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Calm Theme':
+      'prefix':'ionic-css-range:calm'
+      'body' : """
+      <div class="range range-calm">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Balanced Theme':
+      'prefix':'ionic-css-range:balanced'
+      'body' : """
+      <div class="range range-balanced">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Energized Theme':
+      'prefix':'ionic-css-range:energized'
+      'body' : """
+      <div class="range range-energized">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Assertive Theme':
+      'prefix':'ionic-css-range:assertive'
+      'body' : """
+      <div class="range range-assertive">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Royal Theme':
+      'prefix':'ionic-css-range:royal'
+      'body' : """
+      <div class="range range-royal">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """
+
+    'Range Dark Theme':
+      'prefix':'ionic-css-range:dark'
+      'body' : """
+      <div class="range range-dark">
+        <i class="icon ion-ios7-ionic-outline"></i>
+        <input type="range" name="${1:name}">
+        <i class="icon ion-ionic"></i>
+      </div>
+      """

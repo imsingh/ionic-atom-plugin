@@ -1,0 +1,15 @@
+".text.html":
+
+    'Radio Buttons':
+      'prefix':'ionic-css-radio'
+      'body' : """
+      <div class="list">
+        <label class="item item-radio">
+          <input type="radio" name="group">
+          <div class="item-content">
+            ${1: Radio Button}
+          </div>
+          <i class="radio-icon ion-checkmark"></i>
+        </label>
+      </div>
+      """

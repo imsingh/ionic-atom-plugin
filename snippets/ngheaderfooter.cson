@@ -1,0 +1,29 @@
+".text.html":
+
+    'Header Bar':
+      'prefix':'ionic-header-bar'
+      'body' : """
+      <ion-header-bar align-title="left" class="bar-positive">
+        <div class="buttons">
+          <button class="button" ng-click="doSomething()">Left Button</button>
+        </div>
+        <h1 class="title">Title!</h1>
+        <div class="buttons">
+          <button class="button">Right Button</button>
+        </div>
+      </ion-header-bar>
+      """
+
+    'Footer Bar':
+      'prefix':'ionic-footer-bar'
+      'body' : """
+      <ion-footer-bar align-title="left" class="bar-assertive">
+        <div class="buttons">
+          <button class="button">Left Button</button>
+        </div>
+        <h1 class="title">Title!</h1>
+        <div class="buttons" ng-click="doSomething()">
+          <button class="button">Right Button</button>
+        </div>
+      </ion-footer-bar>
+      """

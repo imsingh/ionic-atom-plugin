@@ -1,0 +1,108 @@
+".text.html":
+
+    'Plachehoder Label':
+      'prefix':'ionic-css-form-placeholder'
+      'body' : """
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="${1:First Name}">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="${2:Last Name}">
+        </label>
+        <label class="item item-input">
+          <textarea placeholder="${3:Comments}"></textarea>
+        </label>
+      </div>
+      """
+
+    'Floating Label':
+      'prefix':'ionic-css-form-floating'
+      'body' : """
+      <div class="list">
+        <label class="item item-input item-floating-label">
+          <span class="input-label">${1:First Name}</span>
+          <input type="text" placeholder="${2:First Name}">
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">${3:Last Name}</span>
+          <input type="text" placeholder="${4:Last Name}">
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">${5:Email}</span>
+          <input type="text" placeholder="${6:Email}">
+        </label>
+      </div>
+      """
+
+    'Stacked Label':
+      'prefix':'ionic-css-form-stacked'
+      'body' : """
+      <div class="list">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">${1:First Name}</span>
+          <input type="text" placeholder="${2:John}">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">${3:Last Name}</span>
+          <input type="text" placeholder="${4:Suhr}">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">${5:Email}</span>
+          <input type="text" placeholder="${6:john@suhr.com}">
+        </label>
+      </div>
+      """
+
+    'Inline Label':
+      'prefix':'ionic-css-form-inline'
+      'body' : """
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">${1:Username}</span>
+          <input type="text">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">${2:Password}</span>
+          <input type="password">
+        </label>
+      </div>
+      """
+
+    'Form in Header':
+      'prefix':'ionic-css-form-header'
+      'body' : """
+      <div class="bar bar-header item-input-inset">
+        <label class="item-input-wrapper">
+          <i class="icon ion-ios7-search placeholder-icon"></i>
+          <input type="search" placeholder="${1:Search}">
+        </label>
+        <button class="button button-clear">
+          ${2:Cancel}
+        </button>
+      </div>
+      """
+
+    'Form with Icons':
+      'prefix':'ionic-css-form-icon'
+      'body' : """
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="${1:Search}">
+        </label>
+      </div>
+      """
+
+    'Inset Form':
+      'prefix':'ionic-css-form-inset'
+      'body' : """
+      <div class="list list-inset">
+        <label class="item item-input">
+          <input type="text" placeholder="${1:First Name}">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="${2:Last Name}">
+        </label>
+      </div>
+      """

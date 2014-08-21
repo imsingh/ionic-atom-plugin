@@ -1,0 +1,37 @@
+".text.html":
+
+    'Content':
+      'prefix':'ionic-content'
+      'body' : """
+      <ion-content
+        [delegate-handle="${1:}"]
+        [direction="${2:}"]
+        [padding="${3:}"]
+        [scroll="${4:}"]
+        [overflow-scroll="${5:}"]
+        [scrollbar-x="${6:}"]
+        [scrollbar-y="${7:}"]
+        [start-y="${8:}"]
+        [on-scroll="${9:}"]
+        [on-scroll-complete="${10:}"]
+        [has-bouncing="${11:}"]>
+      ${12:...}
+      </ion-content>
+      """
+
+    'Pane':
+      'prefix':'ionic-pane'
+      'body' : """
+      <ion-pane>
+        ${1: Challenge Accepted! :P}
+      </ion-pane>
+      """
+
+    'Refresher':
+      'prefix':'ionic-refresher'
+      'body' : """
+      <ion-refresher
+          pulling-text="${1:Pull to refresh...}"
+          on-refresh="${2:doRefresh}()">
+      </ion-refresher>
+      """

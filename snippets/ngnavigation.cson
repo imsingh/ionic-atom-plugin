@@ -1,0 +1,48 @@
+".text.html":
+
+    'Ion View':
+      'prefix':'ionic-view'
+      'body' : """
+      <ion-view title="Title">
+      	<ion-content>
+            Content Here
+          </ion-content>
+      </ion-view>
+      """
+
+    'Ion Nav View':
+      'prefix':'ionic-nav-view'
+      'body' : """
+      <ion-nav-bar></ion-nav-bar>
+      <ion-nav-view animation="slide-left-right">
+        <!-- Center content -->
+      </ion-nav-view>
+      """
+
+    'Ion Nav Back button':
+      'prefix':'ionic-nav-back'
+      'body' : """
+      <ion-nav-back-button class="button-clear">
+          <i class="ion-arrow-left-c"></i> Back
+      </ion-nav-back-button>
+      """
+
+    'Ion Nav Left button':
+      'prefix':'ionic-nav-buttons:left'
+      'body' : """
+      <ion-nav-buttons side="left">
+        <button class="button" ng-click="doSomething()">
+          I'm a button on the left of the navbar!
+        </button>
+      </ion-nav-buttons>
+      """
+
+    'Ion Nav Right button':
+      'prefix':'ionic-nav-buttons:right'
+      'body' : """
+      <ion-nav-buttons side="right">
+        <button class="button" ng-click="doSomething()">
+          I'm a button on the right of the navbar!
+        </button>
+      </ion-nav-buttons>
+      """

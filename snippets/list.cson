@@ -1,0 +1,123 @@
+".text.html":
+
+    'List':
+      'prefix':'ionic-css-list'
+      'body' : """
+      <ul class="list">
+        <li class="item">
+         ${1: First Item}
+        </li>
+
+        <li class="item">
+         ${2: Second Item}
+        </li>
+
+        <li class="item">
+         ${3: Third Item}
+        </li>
+      </ul>
+      """
+
+    'List Inset':
+      'prefix':'ionic-css-list:inset'
+      'body' : """
+      <ul class="list list-inset">
+          <li class="item">
+           ${1: First Item}
+          </li>
+
+          <li class="item">
+           ${2: Second Item}
+          </li>
+
+          <li class="item">
+           ${3: Third Item}
+          </li>
+      </ul>
+      """
+
+    'List Item':
+      'prefix':'ionic-css-list-item'
+      'body' : """
+      <li class="item">
+        ${1: Item}
+      </li>
+      """
+
+    'List Item':
+      'prefix':'ionic-css-list:divider'
+      'body' : """
+      <div class="item item-divider">
+          ${1:Item Divider}
+      </div>
+      """
+
+    'List Item with Avatar':
+      'prefix':'ionic-css-list-item:avatar'
+      'body' : """
+      <a class="item item-avatar" href="#">
+        <img src="${1:#"}>
+        <h2>Avatar</h2>
+        <p>I am Crazy, are you?.</p>
+      </a>
+      """
+
+    'List Item with Left Button':
+      'prefix':'ionic-css-list-item:buttonleft'
+      'body' : """
+      <div class="item item-button-left">
+      Ionic
+        <button class="button button-stable">
+          <i class="icon ion-${1:ionic}"></i>
+        </button>
+      </div>
+      """
+
+    'List Item with Right Button':
+      'prefix':'ionic-css-list-item:buttonright'
+      'body' : """
+      <div class="item item-button-right">
+      Ionic
+        <button class="button button-stable">
+          <i class="icon ion-${1:ionic}"></i>
+        </button>
+      </div>
+      """
+
+    'List Item with Left Icon':
+      'prefix':'ionic-css-list-item:iconleft'
+      'body' : """
+      <a class="item item-icon-left" href="${1:#}">
+          <i class="icon ion-${2:ionic}"></i>
+          Ionic
+      </a>
+      """
+
+    'List Item with Right Icon':
+      'prefix':'ionic-css-list-item:iconright'
+      'body' : """
+      <a class="item item-icon-right" href="${1:#}">
+          <i class="icon ion-${2:ionic}"></i>
+          Ionic
+      </a>
+      """
+
+    'List Item with Left Thumbnail':
+      'prefix':'ionic-css-list-item:thumbleft'
+      'body' : """
+      <a class="item item-thumbnail-left" href="#">
+        <img src="${1:#}">
+        <h2>Thumbnail</h2>
+        <p>I am Crazy.</p>
+      </a>
+      """
+
+    'List Item with Right Thumbnail':
+      'prefix':'ionic-css-list-item:thumbright'
+      'body' : """
+      <a class="item item-thumbnail-right" href="#">
+        <img src="${1:#}">
+        <h2>Thumbnail</h2>
+        <p>I am Crazy.</p>
+      </a>
+      """

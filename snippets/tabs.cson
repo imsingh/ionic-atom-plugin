@@ -1,0 +1,647 @@
+".text.html":
+
+    'Tabs':
+      'prefix':'ionic-css-tabs'
+      'body' : """
+      <div class="tabs">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Light Theme':
+      'prefix':'ionic-css-tabs:light'
+      'body' : """
+      <div class="tabs tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Stable Theme':
+      'prefix':'ionic-css-tabs:stable'
+      'body' : """
+      <div class="tabs tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Positive Theme':
+      'prefix':'ionic-css-tabs:positive'
+      'body' : """
+      <div class="tabs tabs-positive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Calm Theme':
+      'prefix':'ionic-css-tabs:calm'
+      'body' : """
+      <div class="tabs tabs-calm">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Balanced Theme':
+      'prefix':'ionic-css-tabs:balanced'
+      'body' : """
+      <div class="tabs tabs-balanced">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Energized Theme':
+      'prefix':'ionic-css-tabs:energized'
+      'body' : """
+      <div class="tabs tabs-energized">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Assertive Theme':
+      'prefix':'ionic-css-tabs:assertive'
+      'body' : """
+      <div class="tabs tabs-assertive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Royal Theme':
+      'prefix':'ionic-css-tabs:royal'
+      'body' : """
+      <div class="tabs tabs-royal">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs Dark Theme':
+      'prefix':'ionic-css-tabs:dark'
+      'body' : """
+      <div class="tabs tabs-dark">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    # Tabs with Icons
+
+    'Tabs with Icon':
+      'prefix':'ionic-css-tabs-icon'
+      'body' : """
+      <div class="tabs tabs-icon-only">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Light Theme':
+      'prefix':'ionic-css-tabs-icon:light'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Stable Theme':
+      'prefix':'ionic-css-tabs-icon:stable'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Positive Theme':
+      'prefix':'ionic-css-tabs-icon:positive'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-positive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Calm Theme':
+      'prefix':'ionic-css-tabs-icon:calm'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-calm">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Balanced Theme':
+      'prefix':'ionic-css-tabs-icon:balanced'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-balanced">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Energized Theme':
+      'prefix':'ionic-css-tabs-icon:energized'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-energized">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Assertive Theme':
+      'prefix':'ionic-css-tabs-icon:assertive'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-assertive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Royal Theme':
+      'prefix':'ionic-css-tabs-icon:royal'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-royal">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Icon Dark Theme':
+      'prefix':'ionic-css-tabs-icon:dark'
+      'body' : """
+      <div class="tabs tabs-icon-only tabs-dark">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    # Tabs with Left Icon
+
+    'Tabs with Left Icon':
+      'prefix':'ionic-css-tabs-iconleft'
+      'body' : """
+      <div class="tabs tabs-icon-left">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Light Theme':
+      'prefix':'ionic-css-tabs-iconleft:light'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Stable Theme':
+      'prefix':'ionic-css-tabs-iconleft:stable'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Positive Theme':
+      'prefix':'ionic-css-tabs-iconleft:positive'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-positive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Calm Theme':
+      'prefix':'ionic-css-tabs-iconleft:calm'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-calm">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Balanced Theme':
+      'prefix':'ionic-css-tabs-iconleft:balanced'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-balanced">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Energized Theme':
+      'prefix':'ionic-css-tabs-iconleft:energized'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-energized">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Assertive Theme':
+      'prefix':'ionic-css-tabs-iconleft:assertive'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-assertive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Royal Theme':
+      'prefix':'ionic-css-tabs-iconleft:royal'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-royal">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Left Icon Dark Theme':
+      'prefix':'ionic-css-tabs-iconleft:dark'
+      'body' : """
+      <div class="tabs tabs-icon-left tabs-dark">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    # Tabs with Top Icon
+
+    'Tabs with Top Icon':
+      'prefix':'ionic-css-tabs-icontop'
+      'body' : """
+      <div class="tabs tabs-icon-top">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Light Theme':
+      'prefix':'ionic-css-tabs-icontop:light'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Stable Theme':
+      'prefix':'ionic-css-tabs-icontop:stable'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-light">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Positive Theme':
+      'prefix':'ionic-css-tabs-icontop:positive'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-positive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Calm Theme':
+      'prefix':'ionic-css-tabs-icontop:calm'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-calm">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Balanced Theme':
+      'prefix':'ionic-css-tabs-icontop:balanced'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-balanced">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Energized Theme':
+      'prefix':'ionic-css-tabs-icontop:energized'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-energized">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Assertive Theme':
+      'prefix':'ionic-css-tabs-icontop:assertive'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-assertive">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Royal Theme':
+      'prefix':'ionic-css-tabs-icontop:royal'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-royal">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """
+
+    'Tabs with Top Icon Dark Theme':
+      'prefix':'ionic-css-tabs-icontop:dark'
+      'body' : """
+      <div class="tabs tabs-icon-top tabs-dark">
+        <a class="tab-item">
+          ${1:Home}
+        </a>
+        <a class="tab-item">
+          ${2:Favorites}
+        </a>
+        <a class="tab-item">
+          ${3:Settings}
+        </a>
+      </div>
+      """

@@ -1,0 +1,81 @@
+".text.html":
+
+    'Footer':
+      'prefix':'ionic-css-footer'
+      'body' : """
+      <div class="bar bar-footer">
+    	   <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Light':
+      'prefix':'ionic-css-footer:light'
+      'body' : """
+      <div class="bar bar-footer bar-light">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Stable':
+      'prefix':'ionic-css-footer:stable'
+      'body' : """
+      <div class="bar bar-footer bar-stable">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Positive':
+      'prefix':'ionic-css-footer:positive'
+      'body' : """
+      <div class="bar bar-footer bar-positive">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Calm':
+      'prefix':'ionic-css-footer:calm'
+      'body' : """
+      <div class="bar bar-footer bar-calm">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Balanced':
+      'prefix':'ionic-css-footer:balanced'
+      'body' : """
+      <div class="bar bar-footer bar-balanced">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Energized':
+      'prefix':'ionic-css-footer:energized'
+      'body' : """
+      <div class="bar bar-footer bar-energized">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Assertive':
+      'prefix':'ionic-css-footer:assertive'
+      'body' : """
+      <div class="bar bar-footer bar-assertive">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Royal':
+      'prefix':'ionic-css-footer:royal'
+      'body' : """
+      <div class="bar bar-footer bar-royal">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """
+
+    'Footer Dark':
+      'prefix':'ionic-css-footer:dark'
+      'body' : """
+      <div class="bar bar-footer bar-dark">
+         <h1 class="title">${1: Footer}</h1>
+      </div>
+      """

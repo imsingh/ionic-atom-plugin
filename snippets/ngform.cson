@@ -1,0 +1,74 @@
+".text.html":
+
+    'Checkbox':
+      'prefix':'ionic-checkbox'
+      'body' : """
+      <ion-checkbox ng-model="${1:isChecked}">${2:Label}</ion-checkbox>
+      """
+
+    'Radio':
+      'prefix':'ionic-radio'
+      'body' : """
+      <ion-radio ng-model="${1:choice}" ng-value="'${2:}'">${3:Label}</ion-radio>
+      <ion-radio ng-model="${4:choice}" ng-value="'${5:}'">${6:Label}</ion-radio>
+      """
+
+    'Toggle Default Theme':
+      'prefix':'ionic-toggle'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-default">${2:Airplane Mode}</ion-toggle>
+      """
+      
+    'Toggle Light Theme':
+      'prefix':'ionic-toggle:light'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-light">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Stable Theme':
+      'prefix':'ionic-toggle:stable'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-stable">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Positive Theme':
+      'prefix':'ionic-toggle:positive'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-positive">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Calm Theme':
+      'prefix':'ionic-toggle:calm'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-calm">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Balanced Theme':
+      'prefix':'ionic-toggle:balanced'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-balanced">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Energized Theme':
+      'prefix':'ionic-toggle:energized'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-energized">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Assertive Theme':
+      'prefix':'ionic-toggle:assertive'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-assertive">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Royal Theme':
+      'prefix':'ionic-toggle:royal'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-royal">${2:Airplane Mode}</ion-toggle>
+      """
+
+    'Toggle Dark Theme':
+      'prefix':'ionic-toggle:dark'
+      'body' : """
+      <ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-dark">${2:Airplane Mode}</ion-toggle>
+      """

@@ -1,14 +1,15 @@
 {
   "name": "ionic-framework-snippets",
   "main": "./lib/ionic-framework-snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Snippet Package for Ionic Frameowkr",
-  "activationEvents": ["ionic-snippets-plugin:toggle"],
+  "activationEvents": [
+    "ionic-snippets-plugin:toggle"
+  ],
   "repository": "https://github.com/imsingh/ionic-atom-plugin",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

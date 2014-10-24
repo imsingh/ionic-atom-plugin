@@ -5,8 +5,8 @@
       'body' : """
       <ion-view title="Title">
       	<ion-content>
-            Content Here
-          </ion-content>
+          Content Here
+        </ion-content>
       </ion-view>
       """
 
@@ -23,7 +23,7 @@
       'prefix':'ionic-nav-back'
       'body' : """
       <ion-nav-back-button class="button-clear">
-          <i class="ion-arrow-left-c"></i> Back
+        <i class="ion-arrow-left-c"></i> Back
       </ion-nav-back-button>
       """
 

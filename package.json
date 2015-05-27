@@ -1,7 +1,7 @@
 {
   "name": "ionic-framework-snippets",
   "main": "./lib/ionic-framework-snippets",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "A Snippet Plugin for Ionic Framework",
   "keywords": [
   ],

@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle ionic-framework-snippets'
+      'command': 'ionic-framework-snippets:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ionic-framework-snippets'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'ionic-framework-snippets:toggle'
+        }
+      ]
+    ]
+  }
+]

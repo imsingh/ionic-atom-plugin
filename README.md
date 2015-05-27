@@ -7,12 +7,6 @@ Feel Free to let me know about issues via :
 
 * [Issues](https://github.com/imsingh/ionic-atom-plugin/issues)
 
-## Installation
-
-```
-apm install ionic-framework-snippets
-```
-
 ## What's Included - Content
 
 ### AngularJS Directive based Ionic Snippets

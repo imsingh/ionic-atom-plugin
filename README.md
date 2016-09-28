@@ -1,6 +1,8 @@
 Ionic - Atom Snippet Plugin
 ====================
 
+[![Join the chat at https://gitter.im/imsingh/ionic-atom-plugin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/imsingh/ionic-atom-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A Simple Atom Package for Ionic Framework Code Snippets
 
 Feel Free to let me know about issues via :

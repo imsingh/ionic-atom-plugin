@@ -9,4 +9,3 @@
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
   'ctrl-alt-o': 'ionic-framework-snippets:toggle'
-  hello world!

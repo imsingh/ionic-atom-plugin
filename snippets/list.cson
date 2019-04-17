@@ -44,7 +44,7 @@
       </li>
       """
 
-    'List Item':
+    'List Divider':
       'prefix':'ionic-css-list:divider'
       'body' : """
       <div class="item item-divider">

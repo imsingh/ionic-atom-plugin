@@ -168,7 +168,7 @@
       'prefix':'ionic-css-button-clear'
       'body' : """
       <button class="button button-clear">
-         ${1: Clear Button}
+         ${1: Button Clear}
       </button>
       """
 
@@ -245,7 +245,7 @@
       """
 
     # Full Width Button Snippets
-
+    'Button Full':
       'prefix':'ionic-css-button-full'
       'body' : """
       <button class="button button-full">
@@ -489,8 +489,8 @@
         </button>
         """
 
-      # Outlined Button Snippets
-
+    # Outlined Button Snippets
+    'Button Outline':
       'prefix':'ionic-css-button-outline'
       'body' : """
       <button class="button button-outline">
